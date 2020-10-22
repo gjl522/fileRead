@@ -1,5 +1,8 @@
 package controller;
 
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+import org.w3c.dom.ls.LSOutput;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -10,7 +13,7 @@ public class BufferRead {
     public static void main(String[] args) {
         //定义一个空的缓冲流
         BufferedReader buff = null;
-
+        System.out.println("6666666666666666666666666666666666666");
         try {
             //将具体文件通过FileReader读取出来
             FileReader fileReader = new FileReader("D:\\WorkCode\\File\\gjl.txt");
